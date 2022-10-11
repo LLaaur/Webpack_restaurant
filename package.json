@@ -1,0 +1,22 @@
+{
+  "name": "webpack_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLaaur/Webpack_restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLaaur/Webpack_restaurant/issues"
+  },
+  "homepage": "https://github.com/LLaaur/Webpack_restaurant#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
