@@ -1,1 +1,3 @@
-console.log('hi wasup')
+import initWebsite from "./websiteLoad";
+
+initWebsite();

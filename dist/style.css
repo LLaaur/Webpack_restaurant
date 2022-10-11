@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: auto;
+    padding: 4rem;
+}
+
+/* homepage */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    color: red;
+    border-radius: 50%;
+    animation: fadeIn 4s ease;
+}
+
+.home-h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.0rem;
+    text-align: center;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
