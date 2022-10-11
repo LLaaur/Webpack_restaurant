@@ -5,20 +5,48 @@
 
 #content{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
     height: 100vh;
     background-image: url(./assets/background.jpg);
+    overflow: hidden;
 }
 
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    width: 100%;
     height: auto;
     padding: 4rem;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10%;
+    background-color: gold;
+}
+
+.nav{
+    display: flex;
+    column-gap: 5rem;
+    width: 400px;
+    border: none;
+}
+
+.nav button{
+    border: none;
+    background-color: gold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    cursor: pointer;
 }
 
 /* homepage */
