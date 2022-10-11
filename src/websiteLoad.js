@@ -37,13 +37,33 @@ function createMain(){
     return main;
 }
 
+function createFooter(){
+    const footer = document.createElement('div');
+    footer.classList.add('footer');
+
+    const copyright = document.createElement('p');
+    copyright.textContent = `Copyright © ${new Date().getFullYear()} LLaaur`;
+
+    const githubAccount = document.createElement('a');
+    githubAccount.href = 'https://github.com/LLaaur';
+
+    const githubIcon = document.createElement('i');
+    githubIcon.classList.add('fab');
+    githubIcon.classList.add('fa-github');
+
+    footer.appendChild(copyright);
+    githubAccount.appendChild(githubIcon);
+    footer.appendChild(githubAccount);
+
+    return footer
+}
 
 function initWebsite(){
     const content = document.getElementById('content');
 
     content.appendChild(createHeader());
-
     content.appendChild(createMain());
+    content.appendChild(createFooter());
 
     loadHome();
 }
