@@ -98,7 +98,7 @@ body{
     background-color: gold;
     color: red;
     border-radius: 50%;
-    animation: fadeIn 4s ease;
+    animation: fadeIn 3s ease;
 }
 
 .home-h1{
@@ -118,7 +118,7 @@ body{
     height: 75vh;
     background-color: gold;
     padding: 2rem;
-    border-radius: 10%;
+    border-radius: 15px;
     align-items: center;
 }
 
@@ -126,7 +126,7 @@ body{
     padding: 1rem;
     width: 400px;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .menu-item:hover{
@@ -144,6 +144,30 @@ body{
 }
 
 
+
+/* contact */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1360px;
+    height: 60vh;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.contact p{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.contact img{
+    width: 75%;
+    border-radius: 10px;
+}
 
 /* animations */
 
