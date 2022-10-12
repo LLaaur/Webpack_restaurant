@@ -1,4 +1,5 @@
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 function createHeader(){
     const header = document.createElement('div');
@@ -15,9 +16,16 @@ function createNav(){
 
     const homeBtn = document.createElement('button');
     homeBtn.textContent = 'Acasa';
+    homeBtn.addEventListener('click', () => {
+        loadHome();
+    });
     
     const menuBtn = document.createElement('button');
     menuBtn.textContent = 'Meniu';
+    menuBtn.addEventListener('click', () => {
+        loadMenu();
+    });
+
 
     const contactBtn = document.createElement('button');
     contactBtn.textContent = 'Contact';
